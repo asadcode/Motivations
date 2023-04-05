@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    padding: 0 150px;
+}
+  
+  .button {
+    font-size: 30px;
+    padding: 10px 70px 10px;
+    border-radius: 12px;
+    background-color: rgba(192, 192, 192, 0.884);
+    color: black;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .button:hover {
+    background-color: silver;
+  }
+  
+  .textArea {
+    padding-top: 30px;
+  }
+  
+  
+  .footer {
+    padding-bottom: 20px;
+  }
+  #quote {
+      color: black;
+  }
+   
